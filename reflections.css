@@ -5,3 +5,7 @@ body {
 .jumbotron {
 	background-image: url("http://placehold.it/1200x200");
 }
+
+span.bullet-title {
+	font-weight: bold;
+}
