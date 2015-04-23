@@ -3,9 +3,13 @@ body {
 }
 
 .jumbotron {
-	background-image: url("http://placehold.it/1200x200");
+	background-image: url(reflections.png);
 }
 
 span.bullet-title {
 	font-weight: bold;
+}
+
+table {
+	border: solid 1px black;
 }
