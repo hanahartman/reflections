@@ -3,27 +3,22 @@ body {
 	background-color: #89CEA2 !important;
 }
 
-.container.solid {
+.solid {
 	background-color: #ffffff;
 	padding-top: 10px;
-}
-
-.solid-events {
-	
-}
-
-.row.solid {
-	background-color: #ffffff;
 	padding-bottom: 2px !important;
 	margin-bottom: 15px !important;
+	border: solid 1px black;
 }
 
 .thumbnail {
-	margin-bottom: 0px !important;
+	/*margin-bottom: 0px !important;*/
 }
 
 .jumbotron {
-	background-image: url(jumbotron4.png);
+	background-image: url(jumbotron5.png);
+	background-size: cover !important;
+	border: solid 1px white;
 }
 
 span.bold {
@@ -52,14 +47,28 @@ h5 {
 	font-size: 125%;
 }
 
+.navbar {
+	background-color: #ffffff !important;
+	height: 70px !important;
+}
+
 .navbar-nav a {
-	font-family: 'Roboto', sans-serif !important
+	font-family: 'Roboto', sans-serif !important;
+	margin-top: 7px !important;
 
 }
 
-.navbar-brand a {
-	font-family: 'Lobster', cursive !important;
+.navbar-brand {
+	/*font-family: 'Pacifico', cursive !important;
+	color: black !important;*/
+	padding-top: 0px !important;
+	padding-left: 0px !important;
 }
+
+form {
+	margin-top: 15px !important;
+}
+
 
 p {
 	font-family: 'Roboto', sans-serif !important;
@@ -84,4 +93,21 @@ ul {
 	padding-right: 10px;
 	border: solid 1px black;
 	background-color: #ffffff;
+}
+
+.index {
+	margin-left: 1px !important;
+	margin-right: 1px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid 1px black;
+	background-color: #ffffff;
+}
+
+.btn-primary {
+	background-color: #ffffff !important;
+	color: black !important;
+	border: solid 1px black !important;
 }
